@@ -91,6 +91,11 @@
 
     <section class="home">
         <div class="text">Home</div>
+        <input type="file" id="file" accept="image/*">
+        <label for="file">
+            <i class="bx bx-image icon"></i>
+                Upload an Image
+        </label>
     </section>
 
     <script>
