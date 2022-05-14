@@ -91,9 +91,42 @@
 
     <section class="home">
         <div class="text">Messages</div>
+        <div class="container">
+            <div class="users-window">
+                <div class="users-head">
+                    <h3>People</h3>
+                    <h4>3</h4>
+                </div>
+                <div class="users-list">
+                    <p>You</p>
+                    <p>John</p>
+                    <p>Maria</p>
+                </div>
+            </div>
+            <div class="chat-window">
+                <div class="chats">
+                <div class="user-join">
+                    <p><b>John</b> joined the chat</p>
+                </div>
+                <div class="message incoming">
+                    <h5>John</h5>
+                    <p>Hello Maria</p>
+                </div>
+                <div class="message outgoing">
+                    <h5>You</h5>
+                    <p>Welcome John</p>
+                </div>
+                </div>
+                <div class="user-input">
+                    <input type="text" placeholder="Type your message...">
+                    <button>SEND</button>
+            </div>
+        </div>
+
     </section>
 
     <script>
+
         const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
       toggle = body.querySelector(".toggle"),

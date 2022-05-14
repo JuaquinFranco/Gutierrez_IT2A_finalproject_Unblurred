@@ -314,5 +314,103 @@ label{
     justify-content: center;
     align-items: center;
     font-family: "Poppins" ;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.chat-window{
+   width: 100%;
+    background-color: gray;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 65vh;
+}
+.users-window{
+    width: 350px;
+    color: white;
+    background-color: dimgray;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 65vh;
+}
+.users-head{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+h4{
+    background-color: gray;
+    padding: 0 8px;
+    border-radius: 50px;
+}
+.users-list{
+    font-weight: 10px;
+    margin-bottom: 15px;
+}
+.chats{
+    min-height: 65vh;
+    padding: 20px;
+}
+.user-join{
+    font-size: 0.9rem;
+    color: grey;
+    background-color: white;
+    border-radius: 50px;
+    width: max-content;
+    padding: 7px 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.message{
+    color: black;
+    background-color: white;
+    padding: 5px 15px;
+    max-width: 400px;
+    margin-bottom: 15px;
+    border-radius: 10px 50px 50px 10px;
+}
+.p{
+    font-size: 16px;
+}
+.outgoing{
+    margin-left: auto;
+    color: white;
+    background-color: blue;
+    border-radius: 50px 10px 10px 50px;
+    text-align: right;
+}
+.user-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+input{
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 50px 0 0 50px;
+}
+button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    letter-spacing: 0.5px;
+    color: white;
+    background-color: blue;
+    border-radius: 0 50px 50px 0;
 
 }
