@@ -12,7 +12,7 @@
     --primary-color: #695CFE;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
-    --text-color: #707070;
+    --text-color: #000000;
 
     --tran-03: all 0.2s ease;
     --tran-03: all 0.3s ease;
@@ -503,4 +503,56 @@ button{
 .likes .icon{
     color: var(--text-color);
     transition: var(--tran-03);
+}
+.profile-container{
+    padding: 20px 15%;
+}
+.dp-img{
+   width: 30%;
+   margin-right: 20px;
+   border-radius: 6px;
+}
+.profile-details{
+    background: var(--body-color);
+    transition: var(--tran-03);
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pd-row{
+    display: flex;
+    align-items: flex-start;
+}
+.pd-row h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--text-color);
+    transition: var(--tran-03);;
+}
+.pd-row p{
+    font-size: 13px;
+    color: var(--text-color);
+    transition: var(--tran-03);;   
+}
+.friends-img img{
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.pd-right button{
+    font-size: 15px;
+    width: 140%;
+    margin-top: 1rem;
+    background-color: gray;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
 }

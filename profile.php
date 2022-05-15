@@ -108,6 +108,40 @@ if (isset($_SESSION['ses_username'])===false){
 
     <section class="home">
         <div class="text">Profile</div>
+
+        <div class="profile-container">
+            <div class="profile-details">
+                <div class="pd-left">
+                    <div class="pd-row">
+            <img src="images/dp.jpg" class="dp-img" alt="">
+            <div>
+            <h3 class="mt-0 mb-0" ><?php echo $_SESSION['ses_fullname']; ?> </h3>
+            <p>6 Friends</p>
+                <div class="friends-img">
+            <img src="images/profile1.jpg" alt="">
+            <img src="images/profile2.jpg" alt="">
+            <img src="images/profile3.jpg" alt="">
+            <img src="images/profile4.jpg" alt="">
+            <img src="images/more.jpg" alt="">
+                </div>
+            </div>
+            </div>
+            
+        </div>
+        <div class="pd-right">
+                <button type="button"><i class='bx bx-edit-alt icon' ></i>Edit Profile</button>    
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
     </section>
 
     <script>
