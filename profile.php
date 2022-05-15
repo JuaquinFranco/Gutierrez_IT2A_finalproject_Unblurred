@@ -122,18 +122,104 @@ if (isset($_SESSION['ses_username'])===false){
             <img src="images/profile2.jpg" alt="">
             <img src="images/profile3.jpg" alt="">
             <img src="images/profile4.jpg" alt="">
-            <img src="images/more.jpg" alt="">
+            <i class='bx bx-dots-horizontal-rounded icon' ></i>
                 </div>
             </div>
             </div>
             
         </div>
         <div class="pd-right">
-                <button type="button"><i class='bx bx-edit-alt icon' ></i>Edit Profile</button>    
-
-
+                <button type="button"><i class='bx bx-edit-alt icon' ></i>Edit Profile</button>
             </div>
         </div>
+            <div class="about-section">
+                <div class="bio">
+                    <h1>About Me</h1>
+                    <p>Hi, My name is <?php echo $_SESSION['ses_fullname']; ?> and I live in <?php echo $_SESSION['ses_address']; ?>.</p>
+                </div>
+            </div>
+
+            <div class="social-media">
+                <div class="socmed">
+                    <h1>Other Social Media Accounts</h1>   
+            </div>
+
+        <div class="wrapper">
+
+                <div class="icon facebook">
+                    <div class="tooltip">
+                        Facebook
+                    </div>
+                    <span><i class="bx bxl-facebook icon"></i></span>
+                </div>
+
+                <div class="icon twitter">
+                    <div class="tooltip">
+                        Twitter
+                    </div>
+                    <span><i class="bx bxl-twitter icon"></i></span>
+                </div>
+
+                <div class="icon instagram">
+                    <div class="tooltip">
+                        Instagram
+                    </div>
+                    <span><i class="bx bxl-instagram icon"></i></span>
+                </div>
+        </div>
+
+        </div>
+
+            <div class="my-post">
+                <h1>Posts</h1>
+            </div>
+            <div class="my-feed">
+            <div class="post-box">
+            <img src="images/mypost1.jpg" alt="">
+
+            <div class="post-info">
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>7.2k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>25</span>
+            </div>
+            </div>
+        </div>
+            
+            <div class="post-box">
+            <img src="images/mypost2.jpg" alt="">
+
+            <div class="post-info">
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>5.3k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>73</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="post-box">
+            <img src="images/mypost3.jpg" alt="">
+
+            <div class="post-info">
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>5k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>13</span>
+            </div>
+            </div>
+        </div>
+
+
+
+    </div>
+            </div>
+ 
+
+
     </div>
 
 
