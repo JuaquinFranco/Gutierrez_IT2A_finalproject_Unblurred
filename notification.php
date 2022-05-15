@@ -91,6 +91,129 @@
 
     <section class="home">
         <div class="text">Notifications</div>
+
+<div class="notif-container">
+    <div class="notification-ui_dd-content">
+
+      <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile1.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>John</b> reacted to your post</p>
+            <p class="text-muted"><small>10 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost1.jpg" alt="Feature image"> </div>
+      </div>
+
+ <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile1.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>John</b> reacted to your post</p>
+            <p class="text-muted"><small>10 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost2.jpg" alt="Feature image"> </div>
+      </div>
+
+       <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile1.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>John</b> reacted to your post</p>
+            <p class="text-muted"><small>10 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost3.jpg" alt="Feature image"> </div>
+      </div>
+
+       <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile2.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>Maria</b> reacted to your post</p>
+            <p class="text-muted"><small>10 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost2.jpg" alt="Feature image"> </div>
+      </div>
+
+      <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile2.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>Maria</b> reacted to your post</p>
+            <p class="text-muted"><small>20 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost1.jpg" alt="Feature image"> </div>
+      </div>
+
+      <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile2.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>Maria</b> reacted to your post</p>
+            <p class="text-muted"><small>21 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost3.jpg" alt="Feature image"> </div>
+      </div>
+
+      <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>Someone</b> reacted to your post</p>
+            <p class="text-muted"><small>22 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost3.jpg" alt="Feature image"> </div>
+      </div>
+
+      <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>Someone</b> reacted to your post</p>
+            <p class="text-muted"><small>22 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost2.jpg" alt="Feature image"> </div>
+      </div>
+
+      <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>Someone</b> reacted to your post</p>
+            <p class="text-muted"><small>23 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost2.jpg" alt="Feature image"> </div>
+      </div>
+
+      <div class="notification-list notification-list">
+        <div class="notification-list_content">
+          <div class="notification-list_img"> <img src="images/profile.jpg" alt="user"> </div>
+          <div class="notification-list_detail">
+            <p><b>Someone</b> reacted to your post</p>
+            <p class="text-muted"><small>24 mins ago</small></p>
+          </div>
+        </div>
+        <div class="notification-list_feature-img"> <img src="images/mypost1.jpg" alt="Feature image"> </div>
+      </div>
+
+  </div>
+</div>
+
+
+</section>
+
+
+
+
     </section>
 
     <script>
