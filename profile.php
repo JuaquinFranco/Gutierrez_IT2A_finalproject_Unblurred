@@ -1,3 +1,20 @@
+<?php
+
+SESSION_START();
+
+if (isset($_SESSION['ses_username'])===false){
+    header("Location: index.php?logfirst");
+
+}
+        elseif (isset($_REQUEST['logout'])===true){
+            session_destroy();
+            header("Location: index.php?logout");
+        }
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
