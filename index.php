@@ -14,7 +14,7 @@
         <header>
             <div class="image-text">
                 <span class="image">
-                    <img src="logo.png" alt="">
+                    <img src="images/logo.png" alt="">
                 </span>
 
                 <div class="text logo-text">
@@ -91,11 +91,133 @@
 
     <section class="home">
         <div class="text">Home</div>
-        <input type="file" id="file" accept="image/*">
-        <label for="file">
-            <i class="bx bx-image icon"></i>
-                Upload an Image
-        </label>
+
+    <div class="feed">
+        <h1>Feed</h1>
+        <div class="feed-text">
+            <h2>Latest</h2>
+            <span>Popular</span>
+        </div>
+    </div>
+
+    <div class="main-posts">
+
+        <div class="post-box">
+            <img src="images/post1.jpg" alt="">
+
+            <div class="post-info">
+                <div class="post-profile">
+                    <div class="post-img">
+                        <img src="images/profile1.jpg" alt="">
+                    </div>
+                    <h3>John</h3>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>10.5k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>97</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="post-box">
+            <img src="images/post2.jpg" alt="">
+
+            <div class="post-info">
+                <div class="post-profile">
+                    <div class="post-img">
+                        <img src="images/profile2.jpg" alt="">
+                    </div>
+                    <h3>Maria</h3>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>9.2k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>88</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="post-box">
+            <img src="images/post3.jpg" alt="">
+
+            <div class="post-info">
+                <div class="post-profile">
+                    <div class="post-img">
+                        <img src="images/profile3.jpg" alt="">
+                    </div>
+                    <h3>Stephen</h3>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>4.2k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>25</span>
+            </div>
+            </div>
+        </div>
+        
+        <div class="post-box">
+            <img src="images/post4.jpg" alt="">
+
+            <div class="post-info">
+                <div class="post-profile">
+                    <div class="post-img">
+                        <img src="images/profile4.jpg" alt="">
+                    </div>
+                    <h3>Michael</h3>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>14k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>104</span>
+            </div>
+            </div>
+        </div>
+
+                <div class="post-box">
+            <img src="images/post5.jpg" alt="">
+
+            <div class="post-info">
+                <div class="post-profile">
+                    <div class="post-img">
+                        <img src="images/profile5.jpg" alt="">
+                    </div>
+                    <h3>Jackson</h3>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>8k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>35</span>
+            </div>
+            </div>
+        </div>
+
+                <div class="post-box">
+            <img src="images/post6.jpg" alt="">
+
+            <div class="post-info">
+                <div class="post-profile">
+                    <div class="post-img">
+                        <img src="images/profile6.jpg" alt="">
+                    </div>
+                    <h3>Summer</h3>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-heart icon' ></i>
+                    <span>15.4k</span>
+                    <i class='bx bx-message-dots icon' ></i>
+                    <span>122</span>
+            </div>
+            </div>
+        </div>
+
+
+
     </section>
 
     <script>

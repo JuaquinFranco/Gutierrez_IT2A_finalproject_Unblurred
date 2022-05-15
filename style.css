@@ -37,7 +37,7 @@ body.dark{
     --primary-color: #3a3b3c;
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
-    --text-color: #ccc;
+    --text-color: #ffffff;
 }
 
  .sidebar{
@@ -295,9 +295,6 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
-input[type="file"]{
-    display: none;
-}
 label{
     color: white;
     height: 60px;
@@ -412,5 +409,98 @@ button{
     color: white;
     background-color: blue;
     border-radius: 0 50px 50px 0;
+}
+.feed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.feed h1{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    transition: var(--tran-03);
+}
+.feed-text{
+    display: inline-flex;
+    align-items: center;
 
+}
+.feed-text h2{
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: var(--text-color);
+    transition: var(--tran-03);
+}
+.feed-text span{
+    color: var(--text-color);
+    transition: var(--tran-03);
+}
+.main-posts{
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, auto));
+    gap: 11px;
+}
+.post-box{
+    width: 300px;
+
+}
+.post-box img{
+    width: 100%;
+    height: 344px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.post-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #e2336b;
+    border-radius: 50%;
+}
+.post-img img{
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center; 
+}
+.post-profile{
+    display: flex;
+    align-items: center;
+}
+.post-profile h3{
+    font-size: 12px;
+    font-weight: 600px;
+    margin-left: 5px;
+    color: var(--text-color);
+    transition: var(--tran-03);
+}
+.likes{
+    display: flex;
+    align-items: center;
+}
+.likes i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.likes span{
+    font-size: 14px;
+    margin-left: 7px;
+    color: var(--text-color);
+    transition: var(--tran-03);
+}
+.likes .icon{
+    color: var(--text-color);
+    transition: var(--tran-03);
 }
