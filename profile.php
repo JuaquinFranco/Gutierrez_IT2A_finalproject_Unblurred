@@ -12,6 +12,7 @@ if(isset($_SESSION["ses_username"]) === false){
 
 
 <!DOCTYPE html>
+<title>Profile</title>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -103,7 +104,8 @@ if(isset($_SESSION["ses_username"]) === false){
     </nav>
 
     <section class="home">
-        <div class="text">Profile</div>
+        <div class="text">Profile<a href="publish.php"><button class="posts" ><i class='bx bx-edit-alt icon' ></i>Publish</button></a>
+     </div>
 
         <div class="profile-container">
             <div class="profile-details">
