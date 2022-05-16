@@ -1,20 +1,19 @@
 <?php
-
 SESSION_START();
 
-if (isset($_SESSION['ses_username'])===false ){
-    header("Location: index.php?logfirst");
 
-}
-        elseif (isset($_REQUEST['logout'])===true){
-            session_destroy();
-            header("Location: index.php?logout");
-        }
+if(isset($_SESSION["ses_username"]) === false){
+
+    header("Location: login.php?logfirst");
+   }else if(isset($_REQUEST["signout"])===true){
+       session_destroy();
+       header("Location: login.php?signout");}
 ?>
 
 
 <!DOCTYPE html>
 <html lang="en">
+<title>Friends (@johndegayo)</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -81,7 +80,7 @@ if (isset($_SESSION['ses_username'])===false ){
 
             <div class="bottom-content">
                 <li class="">
-                    <a href="#">
+                    <a href="?signout">
                         <i class='bx bx-log-out icon' ></i>
                         <span class="text nav-text">Logout</span>
                     </a>
@@ -133,7 +132,7 @@ if (isset($_SESSION['ses_username'])===false ){
             <div class="about-section">
                 <div class="bio">
                     <h1>About Me</h1>
-                      <p>Hi, My name is <?php echo $_SESSION['ses_fullname']; ?> and I live in <?php echo $_SESSION['ses_address']; ?>.</p>
+                      <p>Hi, My name is John, and I live in <?php echo $_SESSION['ses_address']; ?>.</p>
                 </div>
             </div>
 
