@@ -105,19 +105,19 @@ if (isset($_SESSION['ses_username'])===false ){
     </nav>
 
     <section class="home">
-        <div class="text">Profile</div>
+        <div class="text">Friends</div>
 
         <div class="profile-container">
             <div class="profile-details">
                 <div class="pd-left">
                     <div class="pd-row">
-            <img src="images/dp.jpg" class="dp-img" alt="">
+            <img src="images/profile2.jpg" class="dp-img" alt="">
             <div>
-            <h3 class="mt-0 mb-0" ><?php echo $_SESSION['ses_fullname']; ?> </h3>
+            <h3 class="mt-0 mb-0" ><?php echo 'Maria Xien Ci' ?> </h3>
             <p>6 Friends</p>
                 <div class="friends-img">
             <img src="images/profile1.jpg" alt="">
-            <img src="images/profile2.jpg" alt="">
+            <img src="images/dp.jpg" alt="">
             <img src="images/profile3.jpg" alt="">
             <img src="images/profile4.jpg" alt="">
             <i class='bx bx-dots-horizontal-rounded icon' ></i>
@@ -127,7 +127,7 @@ if (isset($_SESSION['ses_username'])===false ){
             
         </div>
         <div class="pd-right">
-                <button type="button"><i class='bx bx-edit-alt icon' ></i>Edit Profile</button>
+                <button type="button"><i class='bx bx-edit-alt icon ' ></i>Unfollow</button>
             </div>
         </div>
             <div class="about-section">
@@ -173,7 +173,7 @@ if (isset($_SESSION['ses_username'])===false ){
             </div>
             <div class="my-feed">
             <div class="post-box">
-            <img src="images/mypost1.jpg" alt="">
+            <img src="images/post2.jpg" alt="">
 
             <div class="post-info">
                 <div class="likes">

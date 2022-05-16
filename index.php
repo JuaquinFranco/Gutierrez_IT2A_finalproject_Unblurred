@@ -55,7 +55,7 @@ if(isset($_REQUEST['login_button']) === true){
         <header>
             <div class="image-text">
                 <span class="image">
-                    <img src="images/logo.png" alt="">
+                <a href="index.php" title="Home Page"><img class='glow' src="images/logo.png" alt="" ></a>
                 </span>
 
                 <div class="text logo-text">
@@ -144,7 +144,7 @@ if(isset($_REQUEST['login_button']) === true){
     <div class="main-posts">
 
         <div class="post-box">
-            <img src="images/post1.jpg" alt="">
+            <a href="friendJohn.php"><img src="images/post1.jpg" alt=""></a>
 
             <div class="post-info">
                 <div class="post-profile">
@@ -163,7 +163,7 @@ if(isset($_REQUEST['login_button']) === true){
         </div>
 
         <div class="post-box">
-            <img src="images/post2.jpg" alt="">
+            <a href="friendMaria.php"><img src="images/post2.jpg" alt=""></a>
 
             <div class="post-info">
                 <div class="post-profile">

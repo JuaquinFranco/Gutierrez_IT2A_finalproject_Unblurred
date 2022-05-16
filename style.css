@@ -19,6 +19,64 @@
     --tran-04: all 0.3s ease;
     --tran-05: all 0.3s ease;
 }
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+}
+.login-form-1{
+    position: center;
+    padding: 30%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    position: center;
+    width: 200px;
+    height: 100%;
+    padding: 30%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+   align-items: center;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
 
 body{
     min-height: 100vh;
@@ -39,6 +97,24 @@ body.dark{
     --toggle-color: #fff;
     --text-color: #ffffff;
 }
+
+.col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+    .col-lg-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.66667%;
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%; }
+
+.container {
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto; }
 
  .sidebar{
     position: fixed;
@@ -269,7 +345,11 @@ body.dark .mode .sun-moon i.moon{
 body.dark .switch::before{
     left: 20px;
 }
-
+.glow:hover{
+    background: rgb(100, 100, 100);
+    padding: 5px 5px;
+    transition: all 0.2s ease-in-out;
+ }
 .home{
     position: absolute;
     top: 0;
@@ -283,6 +363,7 @@ body.dark .switch::before{
 .home .text{
     font-size: 30px;
     font-weight: 500;
+    background-color: #46C1F6;
     color: var(--text-color);
     padding: 12px 60px;
 }
