@@ -11,6 +11,7 @@ if(isset($_SESSION["ses_username"]) === false){
        header("Location: login.php?signout");}
 ?>
 <!DOCTYPE html>
+<title>Home</title>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -102,7 +103,8 @@ if(isset($_SESSION["ses_username"]) === false){
     </nav>
 
     <section class="home">
-        <div class="text">Home</div>
+        <div class="text">Home<a href="publish.php"><button class="posts" ><i class='bx bx-edit-alt icon' ></i>Publish</button></a>
+        </div>
 
     <div class="feed">
         <h1>Feed</h1>
@@ -225,10 +227,8 @@ if(isset($_SESSION["ses_username"]) === false){
                     <i class='bx bx-message-dots icon' ></i>
                     <span>122</span>
             </div>
-            </div>
+            </div>   
         </div>
-
-
 
     </section>
 
