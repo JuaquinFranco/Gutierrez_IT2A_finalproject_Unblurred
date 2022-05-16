@@ -12,6 +12,7 @@ if(isset($_SESSION["ses_username"]) === false){
 
 
 <!DOCTYPE html>
+<title>Friends (@mariaxienci)</title>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -131,7 +132,7 @@ if(isset($_SESSION["ses_username"]) === false){
             <div class="about-section">
                 <div class="bio">
                     <h1>About Me</h1>
-                      <p>Hi, My name is <?php echo $_SESSION['ses_fullname']; ?> and I live in <?php echo $_SESSION['ses_address']; ?>.</p>
+                      <p>Hi, My name is Maria, and I live in <?php echo $_SESSION['ses_address']; ?>.</p>
                 </div>
             </div>
 
