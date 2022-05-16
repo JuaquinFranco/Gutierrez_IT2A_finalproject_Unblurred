@@ -1,4 +1,14 @@
+<?php
+SESSION_START();
 
+
+if(isset($_SESSION["ses_username"]) === false){
+
+    header("Location: login.php?logfirst");
+   }else if(isset($_REQUEST["signout"])===true){
+       session_destroy();
+       header("Location: login.php?signout");}
+?>
 
 
 <!DOCTYPE html>
@@ -69,7 +79,7 @@
 
             <div class="bottom-content">
                 <li class="">
-                    <a href="#">
+                    <a href="?signout">
                         <i class='bx bx-log-out icon' ></i>
                         <span class="text nav-text">Logout</span>
                     </a>

@@ -34,12 +34,12 @@
     color: #333;
 }
 .login-form-2{
-    position: center;
-    width: 200px;
-    height: 100%;
-    padding: 30%;
-    background: #0062cc;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
 }
 .login-form-2 h3{
     text-align: center;

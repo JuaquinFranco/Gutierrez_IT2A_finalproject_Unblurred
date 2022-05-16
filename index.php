@@ -1,43 +1,14 @@
+
 <?php
 SESSION_START();
-$acc_username = "JuaquinFranco";
-$acc_password = "juaquin12345";
-$acc_fullname = "Juaquin Franco Gutierrez";
-$acc_address = "Marinduque PH";
-
-$url_add = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 
 
+if(isset($_SESSION["ses_username"]) === false){
 
-
-if(isset($_REQUEST['login_button']) === true){
-
-
-    if($_REQUEST['form_username'] !=$acc_username){
-            header("Location: ".$url_add."?notexist");
-
-}
-    else if ($_REQUEST['form_username'] == $acc_username && $_REQUEST['form_password'] != $acc_password) {
-            header("Location: ".$url_add. "?wrongpass");
-    }
-
-    else if ($_REQUEST['form_username']==$acc_username &&$_REQUEST['form_password'] == $acc_password){
-            header("Location: ".$url_add."?success");
-
-            $_SESSION['ses_username'] = $acc_username;
-            $_SESSION['ses_password'] = $acc_password;
-            $_SESSION['ses_fullname'] = $acc_fullname;
-            $_SESSION['ses_address'] = $acc_address;
-
-
-
-    }
-
-
-}
-
-
-
+    header("Location: login.php?logfirst");
+   }else if(isset($_REQUEST["signout"])===true){
+       session_destroy();
+       header("Location: login.php?signout");}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -107,7 +78,7 @@ if(isset($_REQUEST['login_button']) === true){
 
             <div class="bottom-content">
                 <li class="">
-                    <a href="#">
+                    <a href="?signout">
                         <i class='bx bx-log-out icon' ></i>
                         <span class="text nav-text">Logout</span>
                     </a>
