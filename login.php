@@ -2,7 +2,7 @@
 SESSION_START();
 $acc_username = "ian1";
 $acc_password = "ian";
-$acc_fullname = "Juaquin Franco Gutierrez";
+$acc_fullname = "Juan Dela Cruz";
 $acc_address = "Marinduque PH";
 
 $url_add = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
@@ -59,7 +59,11 @@ body {
             <div class="row">
                 
                 <div class="login-form-2">
-                    <h3>Login</h3>
+                <span class="logo">
+                <img src="images/logo3.png" alt="" >
+                </span>
+                    <h3>Unblurred</h3>
+                    <h5>Login</h5>
                     <form method="POST">
                         <div class="form-group">
                         <?php  
