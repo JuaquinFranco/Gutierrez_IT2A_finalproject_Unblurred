@@ -11,8 +11,8 @@ if(isset($_SESSION["ses_username"]) === false){
        header("Location: login.php?signout");}
 ?>
 <!DOCTYPE html>
-<title>Home</title>
 <html lang="en">
+<title>Home</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@ if(isset($_SESSION["ses_username"]) === false){
     
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
+
 </head>
 <body>
     <nav class="sidebar close">
@@ -227,9 +227,15 @@ if(isset($_SESSION["ses_username"]) === false){
                     <i class='bx bx-message-dots icon' ></i>
                     <span>122</span>
             </div>
-            </div>   
+            </div>  
+             
         </div>
-
+       
+<footer class="footer">
+<div>© 2022 Copyright:
+  <a href="#">Unblurred.com</a>
+</div>
+</footer>
     </section>
 
     <script>
@@ -259,7 +265,9 @@ modeSwitch.addEventListener("click" , () =>{
         
     }
 });
+
     </script>
 
 </body>
+ 
 </html>

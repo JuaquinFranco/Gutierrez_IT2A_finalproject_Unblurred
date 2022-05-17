@@ -12,8 +12,8 @@ if(isset($_SESSION["ses_username"]) === false){
 ?>
 
 <!DOCTYPE html>
-<title>Notification</title>
 <html lang="en">
+<title>Notification</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -227,7 +227,11 @@ if(isset($_SESSION["ses_username"]) === false){
 
 
 
-
+<footer class="footer">
+<div>© 2022 Copyright:
+  <a href="#">Unblurred.com</a>
+</div>
+</footer>
     </section>
 
     <script>

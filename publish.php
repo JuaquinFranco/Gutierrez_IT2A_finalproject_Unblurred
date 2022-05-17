@@ -1,4 +1,3 @@
-
 <?php
 SESSION_START();
 
@@ -103,17 +102,24 @@ if(isset($_SESSION["ses_username"]) === false){
     </nav>
 
     <section class="home">
-        <div class="text">What's on your mind?<button class="posts" ><i class='bx bx-edit-alt icon' ></i>Publish</button>
+        <div class="text">What's on your mind?
         </div>
-
-        <div class="upload">
-            <button type = "button" class = "btn-warning">
-                <i class = "bx bx-image-alt icon"></i> Upload an Image
-                <input type="file">
-            </button>
-        </div>
+<div class="bd-example">
+     <form>
+        <div class="form-group">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="20" style=" width: 100%; "></textarea>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1" style="width: 90%">
+    <button><i class='bx bx-edit-alt icon' ></i>Post</button>
+  </div>
+  
+   </form>
+   </div>
     
-
+   <footer class="footer">
+<div>© 2022 Copyright:
+  <a href="#">Unblurred.com</a>
+</div>
+</footer>
     </section>
 
     <script>

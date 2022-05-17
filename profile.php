@@ -12,8 +12,8 @@ if(isset($_SESSION["ses_username"]) === false){
 
 
 <!DOCTYPE html>
-<title>Profile</title>
 <html lang="en">
+<title>Profile</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -225,9 +225,13 @@ if(isset($_SESSION["ses_username"]) === false){
 
 
 
-
+    
     </section>
-
+    <footer class="footer">
+<div>© 2022 Copyright:
+  <a href="#">Unblurred.com</a>
+</div>
+</footer>
     <script>
         const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),

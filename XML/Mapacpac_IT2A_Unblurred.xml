@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Unblurred[
+<!ELEMENT Unblurred (index)>
+]>
+
+<Unblurred>
+	<index>
+		<sidebar>Home, Profile, Notifications, Messages, Logout, Dark/Light mode</sidebar>
+		<home>Publish</home>
+		<feed>Latest, and Popular</feed>
+		<posts>picture 1, picture 2, picture3, picture4, picture5, picture6 </posts>
+		<footer>Copyright Unblurred</footer>
+	</index>
+
+	<login>
+		<logo>img src="images/logo3.png" alt="" </logo>
+		<siteName>Unblurred</siteName>
+		<panels>success, info, warning, alert</panels>
+		<nameInput>Username Input</nameInput>
+		<passInput>Password Input</passInput>
+		<loginBtn>Login</loginBtn>
+		<passForget>Forgot Password?</passForget>
+	</login>
+
+	<profile>
+		<sidebar>Home, Profile, Notifications, Messages, Logout, Dark/Light mode</sidebar>
+		<home>Publish</home>
+		<pName>Juan Dela Cruz</pName>
+		<aboutMe>Hi, My name is Juan Dela Cruz and I live in Marinduque PH.</aboutMe>
+		<otherSocMed>LogoLinks of Facebook, Twitter, Instagram</otherSocMed>
+		<posts>picture 1, picture 2, picture3</posts>
+		<footer>Copyright Unblurred</footer>
+	</profile>
+
+	<publish>
+        <sidebar>Home, Profile, Notifications, Messages, Logout, Dark/Light mode</sidebar>
+		<header>What's on your mind?</header>
+		<txtBox>Blank TextBox</txtBox>
+		<fileInput>Attach files</fileInput>
+		<postBtn>Post</postBtn>
+		<footer>Copyright Unblurred</footer>
+	</publish>
+
+	<message>
+        <sidebar>Home, Profile, Notifications, Messages, Logout, Dark/Light mode</sidebar>
+		<header>Messages</header>
+		<people>You, Maria, and John</people>
+		<convo>Conversation with John</convo>
+		<input>Type your message..</input>
+		<btn>Send</btn>
+		<footer>Copyright Unblurred</footer>
+	</message>
+
+	<notification>
+        <sidebar>Home, Profile, Notifications, Messages, Logout, Dark/Light mode</sidebar>
+		<header>Notifications</header>
+		<reacts>John Reacted</reacts>
+		<footer>Copyright Unblurred</footer>
+	</notification>
+
+	<friendJohn>
+		<sidebar>Home, Profile, Notifications, Messages, Logout, Dark/Light mode</sidebar>
+		<home>Publish</home>
+		<pName>John Degayo</pName>
+		<aboutMe>Hi, My name is John Degayo and I live in Marinduque PH.</aboutMe>
+		<otherSocMed>LogoLinks of Facebook, Twitter, Instagram</otherSocMed>
+		<posts>picture 1, picture 2, picture3</posts>
+		<footer>Copyright Unblurred</footer>
+	</friendJohn>
+
+	<friendMaria>
+		<sidebar>Home, Profile, Notifications, Messages, Logout, Dark/Light mode</sidebar>
+		<home>Publish</home>
+		<pName>Maria Xien Ci</pName>
+		<aboutMe>Hi, My name is Maria Xien Ci and I live in Marinduque PH.</aboutMe>
+		<otherSocMed>LogoLinks of Facebook, Twitter, Instagram</otherSocMed>
+		<posts>picture 1, picture 2, picture3</posts>
+		<footer>Copyright Unblurred</footer>
+	</friendMaria>
+
+	
+
+</Unblurred>

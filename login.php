@@ -99,7 +99,9 @@ body {
                             <a href="#" class="ForgetPwd" value="Login">Forget Password?</a>
                         </div>
                     </form>
+                    
                 </div>
+                
             </div>
         </div>
                                 </body>
